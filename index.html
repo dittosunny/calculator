@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+  <script src="./script.js"></script>
+</head>
+<body>
+  <div class="calculator">
+    
+    <input type="text" id="display" readonly>
+    <button id="cbtn" onclick="clearbox('')">C</button>
+    <button class="opbtn" onclick="removelastitem()">&larr;</button>
+    <button class="opbtn" onclick="displaynumber('-')">-</button>
+    <button class="opbtn" onclick="displaynumber('+')">+</button>
+    <button class="opbtn" onclick="displaynumber('*')">*</button>
+    <button class="opbtn" onclick="displaynumber('/')">/</button>
+    <button onclick="displaynumber('9')">9</button>
+    <button onclick="displaynumber('8')">8</button>
+    <button onclick="displaynumber('7')">7</button>
+    <button onclick="displaynumber('6')">6</button>
+    <button onclick="displaynumber('5')">5</button>
+    <button onclick="displaynumber('4')">4</button>
+    <button onclick="displaynumber('1')">1</button>
+    <button onclick="displaynumber('2')">2</button>
+    <button onclick="displaynumber('3')">3</button>
+    <button class="opbtn" onclick="evaluateexpression()">=</button>
+    <button onclick="displaynumber('0')">0</button>
+    <button class="opbtn" onclick="displaynumber('.')">.</button>
+  </div>
+
+</body>
+</html>
+  
+
+  
